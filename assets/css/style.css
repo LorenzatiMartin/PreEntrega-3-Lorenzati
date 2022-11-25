@@ -1,0 +1,157 @@
+#menu a{
+    font-weight: bold;
+    color: rgba(255, 72, 0, 0.133);
+}
+/** Footer INDEX*/
+
+.footer{
+    color: #fff;
+    background: #222222;
+    position: center;
+    width: 100%;
+}
+
+
+/** CSS RESTO PAGINA*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: blue;
+}
+
+
+nav {
+    background-color: #a77d60;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+}
+header{
+    background-color: rgba(6, 0, 8, 0.252);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: over;
+    width: 100%;
+    height: 550px;
+
+}
+
+.form-register{
+    width: 500px;
+    background: #24303c;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls{
+    width: 100%;
+    background: #7f8bb6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(38, 0, 255);
+    font-size: 15px;
+
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: underline;
+}
+.form-register .boton{
+    width: 100%;
+    background: #6981c8;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+body{
+    background-image: url(../img/Imagen/fondopantallaregistro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+}
+
+/*
+* Ingreso
+*/
+
+.formulario{
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.formulario h1{
+    text-align: center;
+    padding:0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+/*
+*PreguntasFrecuentes
+*/
+
+h3{
+    color: rgb(255, 0, 0);
+}
+
+ul li{
+    color: rgb(4, 1, 13);
+}
+
+/*
+*Contactos
+*/
+
+form{
+    width: 300px;
+}
+.contactos{
+     color: rgb(240, 36, 36);
+}
+
+
+.mydiv{
+background: linear-gradient(90deg,rgba(0, 255, 251, 0.176),rgb(190, 14, 14),#6981c8);
+}
