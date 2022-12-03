@@ -28,7 +28,7 @@ h1{
 /** CSS RESTO PAGINA*/
 
 nav {
-    background-color: #277448;
+    background-color: #203c5d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,35 +123,22 @@ body{
 * Ingreso
 */
 
-.formulario{
-    height: 200px;
-    position: absolute;
-    top: 35%;
-    left: 35%;
-    width: 400px;
-    background: white;
-    border-radius: 10px;
+.Imagen{
+    background-image: url(../img/fondopantallaregistro.jpg);
 }
-.formulario h1{
-    text-align: center;
-    padding:0 0 20px 0;
-    border-bottom: 1px solid silver;
-}
-.formulario form{
-    padding: 0 40px;
-    box-sizing: border-box;
-}
+
+
 
 /*
 *PreguntasFrecuentes
 */
 
 h3{
-    color: rgb(255, 0, 0);
+    color: rgb(224, 214, 246);
 }
 
 ul li{
-    color: rgb(4, 1, 13);
+    color: #ffffff;
 }
 
 /*
@@ -161,10 +148,6 @@ ul li{
 form{
     width: 300px;
 }
-.contactos{
-     color: rgb(240, 36, 36);
-}
-
 
 
 .Contact{
@@ -182,10 +165,10 @@ form{
 
 .logo{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
 }
 .logo span{
-    color: #b70e21;
+    color: #ffffff;
 }
 
 .contact-wrapper{
@@ -197,7 +180,7 @@ form{
 }
 
 .contact-form{
-    background: #222222;
+    background: #2f2e2e;
 }
 .contact-info{
     background: #000;
@@ -216,7 +199,7 @@ form{
         grid-template-columns: 1fr 1fr;
     }
     .contact-wrapper > *{
-        padding: 2em;
+        padding: 6em;
     }
     .contact-info h4,
     .contact-info ul,
@@ -224,3 +207,4 @@ form{
         text-align: left;
     }
 }
+
