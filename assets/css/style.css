@@ -1,6 +1,13 @@
 #menu a{
     font-weight: bold;
-    color: rgba(255, 72, 0, 0.133);
+    color: rgba(173, 53, 6, 0.133);
+}
+
+h1{
+    color: white;
+}
+.color{
+    color: #ffffff;
 }
 /** Footer INDEX*/
 
@@ -10,9 +17,23 @@
     position: center;
     width: 100%;
 }
+.card img{
+    height: 300px;
+}
+
+
+
 
 
 /** CSS RESTO PAGINA*/
+
+nav {
+    background-color: #277448;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
 
 *{
     margin: 0;
@@ -21,16 +42,17 @@
 }
 
 h2{
-    color: blue;
+    color: rgb(252, 252, 252);
 }
 
-
-nav {
-    background-color: #a77d60;
+.logo{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
+
+.logo img{
+    height: 50px;
+}
+
 nav ul{
     list-style-type: none;
     display: flex;
@@ -40,15 +62,7 @@ nav li a{
     color: rgb(255, 255, 255);
     padding: 10px 50px;
 }
-header{
-    background-color: rgba(6, 0, 8, 0.252);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: over;
-    width: 100%;
-    height: 550px;
 
-}
 
 .form-register{
     width: 500px;
@@ -152,6 +166,61 @@ form{
 }
 
 
-.mydiv{
-background: linear-gradient(90deg,rgba(0, 255, 251, 0.176),rgb(190, 14, 14),#6981c8);
+
+.Contact{
+    background: #181818;
+    color: #fff;
+    padding: 0 1.5em;
+}
+
+.Content{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.5em;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+.logo span{
+    color: #b70e21;
+}
+
+.contact-wrapper{
+    box-shadow: 0 0 20px 0;
+}
+
+.contact-wrapper >*{
+    padding: 3em;
+}
+
+.contact-form{
+    background: #222222;
+}
+.contact-info{
+    background: #000;
+}
+.contact-form form{
+    margin: 0;
+    padding: 3em;
+}
+
+@media(min-width: 700px){
+    body .contact {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-wrapper > *{
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p{
+        text-align: left;
+    }
 }
