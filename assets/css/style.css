@@ -1,259 +1,30 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-
-h3{
-    color: rgb(13, 0, 199);
-}
-nav{
-    background: #ffffff;
-    height: 85px;
+/** footer*/
+.pie{
     width: 100%;
 }
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-}
-.logo{
-    height: 40px;
-}
-nav ul{
-    float: right;
-    margin-right: 60px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 4px;
-    text-transform: uppercase;
-}
-li a.active, li a:hover{
-    transition: .5s;
-}
-.checkbtn{
-    font-size: 30px;
-    color: rgb(173, 15, 15);
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
-section{
-    background: rgb(105, 84, 84);
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
 
-@media (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
+
+/** Registro*/
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
     }
-    nav ul li a{
-        font-size: 16px;
+    .card-registration .select-arrow {
+    top: 13px;
     }
-}
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #ddd6d6;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 25px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    
-    #check:checked ~ ul{
-        left:0;
-    }
-}
+
+/** Contactos */
 
 
-/** Footer INDEX*/
-.footer{
-    color: #fff;
-    background: #222222;
-    position: center;
-    width: 100%;
-}
-.card img{
-    height: 300px;
-}
-
-.form-register{
-    width: 500px;
-    background: #24303c;
-    padding: 10px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-}
-
-.form-register h4{
-    font-size: 22px;
-    margin-bottom: 20px;
-
-}
-
-.controls{
-    width: 100%;
-    background: #7f8bb6;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 16px;
-    border: 1px solid rgb(38, 0, 255);
-    font-size: 15px;
-
-}
-
-.form-register p{
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.form-register a{
-    color: white;
-    text-decoration: underline;
-}
-.form-register .boton{
-    width: 100%;
-    background: #6981c8;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-}
-
-/*
-* Ingreso
-*/
-
-.Imagen{
-    background-image: url(../img/fondopantallaregistro.jpg);
-}
-
-/*
-*PreguntasFrecuentes
-*/
-
-h3{
-    color: rgb(93, 65, 154);
-}
-
-ul li{
-    color: #920c0c;
-}
-
-/*
-*Contactos
-*/
+/**Cursos Online*/
 
 
-form{
-    width: 300px;
-}
+/**Ingreso*/
 
 
-.Contact{
-    background: #181818;
-    color: rgb(101, 44, 44);
-    padding: 0 1.5em;
-}
-
-.Content{
-    max-width: 1170px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1.5em;
-}
-
-.logo{
-    text-align: center;
-    font-size: 2em;
-}
-.logo span{
-    color: #ffffff;
-}
-
-.contact-wrapper{
-    box-shadow: 0 0 20px 0;
-}
-
-.contact-wrapper >*{
-    padding: 3em;
-}
-
-.contact-form{
-    background: #403c3c;
-}
-.contact-info{
-    background: #000;
-    background-color: #b92d2d;
-}
-.contact-form form{
-    margin: 0;
-    padding: 3em;
-}
-
-@media(min-width: 700px){
-    body .contact {
-        padding: 0 4em;
-    }
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 3fr 2fr;
-    }
-    .contact-wrapper > *{
-        padding: 4em;
-    }
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p{
-        text-align: left;
-    }
-}
-
-
-body{
-    background: #181818;
-}
-
-#menu a{
-    font-weight: bold;
-    color: rgba(173, 53, 6, 0.133);
-}
-
+/** Trabajo*/
 
 
