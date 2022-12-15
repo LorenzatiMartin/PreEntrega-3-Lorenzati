@@ -1,30 +1,43 @@
-/** footer*/
-.pie{
-    width: 100%;
+.cardimg {
+  height: 80%;
 }
 
-
-/** Registro*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
 
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
-    font-size: 1rem;
-    line-height: 2.15;
-    padding-left: .75em;
-    padding-right: .75em;
-    }
-    .card-registration .select-arrow {
-    top: 13px;
-    }
-
-/** Contactos */
-
-
-
-/**Ingreso*/
-
-.card img{
-    height: 300px;
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-input .select-arrow {
+  top: 13px;
 }
 
+.registro {
+  width: 103%;
+}
 
+div .imgg {
+  height: 400px;
+}
 
+div .card {
+  background-color: rgb(179, 201, 201);
+}
+
+div .copy {
+  background-color: rgba(77, 56, 56, 0.948);
+}
+
+nav {
+  height: 90px;
+  width: 100%;
+  position: absolute;
+}
